@@ -6,6 +6,7 @@ You should already know the basics of:
     2. Jenkins (Freestyle project)
     3. Maven
     4. docker
+    5. Groovy script
     
     
 Day-1:
