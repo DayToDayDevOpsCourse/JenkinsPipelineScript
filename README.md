@@ -1,4 +1,4 @@
-# Revision Sessions
+# Jenkins Pipeline Script
 
 You should already know the basics of:
 
@@ -17,7 +17,7 @@ Day-1:
 
 Day-2: 
 
-    1. pipeline script (few concepts)
+    1. Pipeline script (few concepts)
     2. Scripted pipeline
     
 Day-3: 
