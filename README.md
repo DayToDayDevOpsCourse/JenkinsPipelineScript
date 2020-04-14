@@ -23,12 +23,12 @@ Day-2:
 Day-3: 
 
     1. pipeline script (pending concepts)
-    2. Declarative pipeline script
-
+    2. Declarative pipeline script 
+    
 Day-4: 
 
     1. pipeline script (pending concepts)
-    2. Declarative pipeline script
+    2. Declarative pipeline script examples
     
 Day-5: 
 
