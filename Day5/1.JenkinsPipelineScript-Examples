@@ -1,0 +1,38 @@
+
+#### Example-3: docker 
+
+###### install docker: https://www.linuxtechi.com/install-docker-ce-centos-8-rhel-8/
+
+       sudo -i
+       
+       dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+       
+       dnf list docker-ce
+       
+       dnf install docker-ce --nobest -y
+       
+       systemctl start docker
+       
+       systemctl enable docker
+       
+       docker --version
+
+
+    pipeline {
+        agent any
+        stages {
+            stage('Example') {
+              agent { docker 'maven:3-alpine' } 
+                  steps {
+                      sh 'mvn -v'
+                }
+            }
+            stage('Example Test') {
+                agent { docker 'openjdk:8-jre' } 
+                steps {
+                    echo 'Hello, JDK'
+                    sh 'java -version'
+                }
+            }
+        }
+    }
