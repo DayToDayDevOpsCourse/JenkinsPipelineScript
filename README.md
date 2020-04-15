@@ -34,5 +34,9 @@ Day-5:
 
     1. pipeline script (pending concepts)
     2. Declarative pipeline script with docker
-    3. Jenkins libraries
+
+Day-6 & 7:
+
+    1. Groovy Script basics
+    2. Jenkins shared libraries
     
